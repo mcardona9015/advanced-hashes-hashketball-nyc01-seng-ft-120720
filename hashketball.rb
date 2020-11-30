@@ -181,4 +181,5 @@ def player_numbers(team_name)
     game_hash[:away][:players].each do |player|
       player_numbers << player[:number]
   end
+  player_numbers
 end
