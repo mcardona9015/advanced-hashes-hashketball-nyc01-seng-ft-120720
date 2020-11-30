@@ -234,4 +234,3 @@ def most_points_scored
   end
   {player_hash[:player_name] => player_hash[:points]}
 end
-binding.pry
