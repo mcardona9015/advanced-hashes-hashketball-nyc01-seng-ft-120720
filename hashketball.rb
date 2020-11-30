@@ -1,4 +1,5 @@
 # Write your code below game_hash
+require 'pry'
 def game_hash
   {
     home: {
@@ -170,3 +171,4 @@ end
 def team_names(game)
   [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 end
+binding.pry
