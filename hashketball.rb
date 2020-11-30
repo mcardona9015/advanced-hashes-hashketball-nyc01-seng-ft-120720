@@ -168,7 +168,7 @@ def team_colors(team_name)
   team_colors
 end
 
-def team_names(hash)
+def team_names
   [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 end
 binding.pry
